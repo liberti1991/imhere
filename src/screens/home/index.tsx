@@ -13,23 +13,6 @@ import { Participant } from "../../components/Participant";
 import { styles } from "./styles";
 
 export function Home() {
-  // const participants = [
-  //   "Rodrigo",
-  //   "Vini",
-  //   "Diego",
-  //   "Biro",
-  //   "Ana",
-  //   "João",
-  //   "Indara",
-  //   "Bia",
-  //   "Isa",
-  //   "Matheus",
-  //   "Miro",
-  //   "Arthur",
-  //   "Leo",
-  //   "Paloma",
-  // ];
-
   const [participant, setParticipant] = useState<string[]>([]);
   const [participantName, setParticipantName] = useState<string>("");
 
